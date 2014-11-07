@@ -1,4 +1,4 @@
-wedesign
+WeDesign
 ========
 
-A WordPress theme that was created for me...
+A WordPress theme that was created for me by me...
