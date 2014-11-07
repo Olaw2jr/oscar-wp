@@ -42,6 +42,7 @@ jQuery(document).ready(function() {
 	jQuery(window).load(function(){
 		jQuery('.header-slider').flexslider('play');
 	});
+	
 	/*============================================
 	ScrollTo Links
 	==============================================*/
@@ -69,27 +70,7 @@ jQuery(document).ready(function() {
 		options = jQuery.extend({}, options || {}, $this.data('countToOptions') || {});
 		$this.countTo(options);
 	}
-	
-	/*============================================
-	Project thumbs - Masonry
-	==============================================*/
-	jQuery(window).load(function(){
 
-		jQuery('#projects-container').css({visibility:'visible'});
-
-		jQuery('#projects-container').masonry({
-			itemSelector: '.project-item:not(.filtered)',
-			isFitWidth: false,
-			isResizable: true,
-			isAnimated: !Modernizr.csstransitions,
-			gutterWidth: 0
-		});
-
-		scrollSpyRefresh();
-		waypointsRefresh();
-		stellarRefresh();
-		
-	});
 	
 	/*============================================
 	Filter Projects
