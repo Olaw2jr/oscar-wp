@@ -39,7 +39,7 @@ get_header(); ?>
                                     <p><?php the_author_posts_link(); ?> <?php the_author_meta( 'description' ); ?>.</p>
                                     <ul class="meta">
                                         <li class="author-posts"><a href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>">All posts by <?php the_author_meta('first_name'); ?></a></li>
-                                        <li class="url"><a href="<?php the_author_meta( 'website' ); ?>">author's-website.com</a></li>
+                                        <!--<li class="url"><a href="<?php the_author_meta( 'website' ); ?>">author's-website.com</a></li>-->
                                     </ul><!-- /.meta -->
                                     <ul class="social">
                                         <?php 
