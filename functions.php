@@ -273,6 +273,7 @@ if ( ! function_exists( 'wedesign_scripts' ) ) {
 		wp_register_script( 'waypoints-sticky', SCRIPTS .'/waypoints-sticky.min.js', array( 'jquery' ), true );
 		wp_register_script( 'jquery-masonry', SCRIPTS .'/jquery.masonry.min.js', array( 'jquery' ), true );
 		wp_register_script( 'jquery-countTo', SCRIPTS .'/jquery.countTo.js', array( 'jquery' ), true );
+		wp_register_script( 'prism-js', SCRIPTS .'/prism.js', array( 'jquery' ), true );
 		wp_register_script( 'contact', SCRIPTS .'/contact.js', array( 'jquery' ), true );
 
 		// Load the custom scripts
@@ -287,15 +288,18 @@ if ( ! function_exists( 'wedesign_scripts' ) ) {
 		wp_enqueue_script('waypoints');
 		wp_enqueue_script('waypoints-sticky');
 		wp_enqueue_script('jquery-countTo');
+		wp_enqueue_script('prism-js');
 		wp_enqueue_script('contact');
 
 		// Register style
 		wp_register_style( 'bootstrap-css', THEMEROOT . '/assets/css/bootstrap.min.css');
 		wp_register_style( 'font-awesome', THEMEROOT . '/assets/css/font-awesome.min.css');
+		wp_register_style( 'prism-css', THEMEROOT . '/assets/css/prism.css');
 
 		// Load the stylesheets
 		wp_enqueue_style( 'bootstrap-css' );
 		wp_enqueue_style( 'font-awesome' );
+		wp_enqueue_style( 'prism-css' );
 		wp_enqueue_style( 'wedesign-master', THEMEROOT . '/assets/css/style.css' );
 		wp_enqueue_style( 'wedesign-master', THEMEROOT . '/assets/css/flexslider.css' );
 	}
