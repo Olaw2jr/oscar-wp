@@ -74,7 +74,7 @@ get_header();
                     <div class="portfolio-desc text-center">
                         <h4 class="portfolio-post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
                         <span class="portfolio-post-cat"><?php echo get_the_term_list($post->ID, 'project-type', '', ', ',''); ?></span>
-                        <h4><a href="<?php the_permalink(); ?>" class="btn btn-default">More detail</a></h4>
+                        <h4><a href="<?php the_permalink(); ?>" class="btn btn-default"><?php _e( 'More detail', 'wedesign' ); ?></a></h4>
                     </div>
                 </div>
             </div>
