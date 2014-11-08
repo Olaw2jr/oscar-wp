@@ -1384,6 +1384,27 @@ overflow: hidden;
 #contact-form.no-placeholder .error-message {
     top:0;
 }
+
+/*----------------------
+----Page 404 Styles-----
+------------------------*/ 
+
+._404Link {
+text-align: center;
+font-size: 10em;
+}
+
+._404Error {
+text-align: center;
+color: #ff4e4e;
+font-size: 2em;
+font-weight: bold;
+}
+
+._404Home {
+text-align: center;
+}
+
 /*----------------------
 -----Footer Styles------
 ------------------------*/    

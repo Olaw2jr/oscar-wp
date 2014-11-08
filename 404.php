@@ -9,29 +9,44 @@
 
 get_header(); ?>
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="center-block error-404">
-                <section class="text-center">
-                    <h1>Error 404</h1>
-                    <h2>Page not found</h2>
-                    <p class="lead lead-lg">The requested URL was not found on this server. That is all we know.</p>
-                </section>
-                <section>
-                    <form role="form" id="center-form">
-                        <div class="form-group">
-                            <input class="form-control input-lg" type="text" placeholder="Search here">
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="btn btn-ar btn-block btn-lg btn-success">Search</button>
-                        </div>
-                    </form>
-                </section>
-            </div>
-        </div>
-    </div> <!-- row -->
-</div> <!-- container -->
+<section id="_404" class="padding-top">
+
+    <div class="container">
+
+            <div class="row">
+                <div class="col-md-12 _404Heading">
+                    
+                    <h1 class="section-title"><?php _e( 'You found a dead link!', 'wedesign' ); ?></h1>
+                    
+                </div> <!-- end of span12 tag-->
+                
+                <div class="col-md-12 _404Link">
+                    <i class="fa fa-unlink"></i>
+                </div>
+                
+                <div class="col-md-12 _404Error">
+                    <?php _e( '404 Error', 'wedesign' ); ?> <i class="fa fa-bolt"></i>
+                </div>
+                
+                <div class="col-md-12 _404Home">
+                    <h4><?php _e( 'Go back', 'wedesign' ); ?> <a href="<?php echo home_url(); ?>"> <i class="fa fa-home"></i> </a> or <a href="<?php echo home_url(); ?>/contact"> Report it. </a> </h4>
+                </div>          
+            </div> <!-- end of row tag-->
+
+        
+        
+        
+        
+        <div class="row">
+            <div class="col-md-12">
+                
+            </div> <!-- end of span12 tag-->
+        </div> <!-- end of row tag-->
+        
+        
+    </div>
+
+</section>
 
 
 <?php
