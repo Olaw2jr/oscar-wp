@@ -48,7 +48,7 @@
 	<body <?php body_class(); ?> data-spy="scroll" data-target="#main-nav" data-offset="400">
 
 	<!-- PAGE PRELOADER -->
-	<div id="page-loader"><span class="page-loader-gif">Inapakua...</span></div>
+	<div id="page-loader"><span class="page-loader-gif"><?php _e( 'Inapakua...', 'wedesign' ); ?></span></div>
 
 	<?php if ( is_front_page() ):
 
@@ -95,7 +95,6 @@ MAIN NAV
 			
 			<!-- ======= LOGO ========-->
 			<a class="navbar-brand" href="<?php echo home_url(); ?>">
-				
 				<img class="site-logo" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/logo-small.png" alt="<?php bloginfo('name'); ?>-logo" />
 			</a>
 			

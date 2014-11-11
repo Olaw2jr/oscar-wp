@@ -81,22 +81,27 @@ jQuery(document).ready(function() {
 		jQuery('#filter-works li').removeClass('active');
 		jQuery(this).parent('li').addClass('active');
 
-		var category = jQuery(this).attr('data-filter');
-
-		jQuery('.project-item').each(function(){
-			if(jQuery(this).is(category)){
-				jQuery(this).removeClass('filtered');
-			}
-			else{
-				jQuery(this).addClass('filtered');
-			}
-
-			jQuery('#projects-container').masonry('reload');
-		});
-
 		scrollSpyRefresh();
 		waypointsRefresh();
 		stellarRefresh();
+	});
+
+	jQuery(window).load(function(){
+		// cache container
+		var $container = jQuery('#container');
+		// initialize isotope
+		$container.isotope({
+		  // options...
+		  itemSelector : '.project-item',
+		  layoutMode : 'fitRows'
+		});
+
+		// filter items when filter link is clicked
+		jQuery('#filters a').click(function(){
+		  var selector = jQuery(this).attr('data-filter');
+		  $container.isotope({ filter: selector });
+		  return false;
+		});
 	});
 	
 		
@@ -136,17 +141,6 @@ jQuery(document).ready(function() {
 		jQuery(this).addClass('in');
 	},{offset:'80%'});
 
-	/*============================================
-	Resize Functions
-	==============================================*/
-	jQuery(window).resize(function(){
-	
-		jQuery('#projects-container').masonry('reload');
-		stellarRefresh();
-		scrollSpyRefresh();
-		waypointsRefresh();
-		
-	});
 	
 	/*============================================
 	Refresh scrollSpy function

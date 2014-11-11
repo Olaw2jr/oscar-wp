@@ -265,21 +265,21 @@ if ( ! function_exists( 'wedesign_scripts' ) ) {
 		// Register scripts
 		wp_register_script( 'bootstrap-js', SCRIPTS . '/libs/bootstrap.min.js', array( 'jquery' ), false, true );
 		wp_register_script( 'wedesign-custom', SCRIPTS . '/main.js', array( 'jquery' ), false, true );
-		wp_register_script( 'jquery-easing', SCRIPTS .'/jquery.easing.1.3.min.js', array( 'jquery' ), true );
-		wp_register_script( 'jquery-scrollto', SCRIPTS .'/jquery.scrollto.js', array( 'jquery' ), true );
-		wp_register_script( 'jquery-flexslider', SCRIPTS .'/jquery.flexslider.min.js', array( 'jquery' ), true );
-		wp_register_script( 'jquery-stella', SCRIPTS .'/jquery.stellar.js', array( 'jquery' ), true );
-		wp_register_script( 'waypoints', SCRIPTS .'/waypoints.min.js', array( 'jquery' ), true );
-		wp_register_script( 'waypoints-sticky', SCRIPTS .'/waypoints-sticky.min.js', array( 'jquery' ), true );
-		wp_register_script( 'jquery-masonry', SCRIPTS .'/jquery.masonry.min.js', array( 'jquery' ), true );
-		wp_register_script( 'jquery-countTo', SCRIPTS .'/jquery.countTo.js', array( 'jquery' ), true );
-		wp_register_script( 'prism-js', SCRIPTS .'/prism.js', array( 'jquery' ), true );
-		wp_register_script( 'contact', SCRIPTS .'/contact.js', array( 'jquery' ), true );
+		wp_register_script( 'jquery-easing', SCRIPTS .'/jquery.easing.1.3.min.js', array( 'jquery' ), false, true );
+		wp_register_script( 'jquery-scrollto', SCRIPTS .'/jquery.scrollto.js', array( 'jquery' ), false, true );
+		wp_register_script( 'jquery-flexslider', SCRIPTS .'/jquery.flexslider.min.js', array( 'jquery' ), false, true );
+		wp_register_script( 'jquery-stella', SCRIPTS .'/jquery.stellar.js', array( 'jquery' ), false, true );
+		wp_register_script( 'waypoints', SCRIPTS .'/waypoints.min.js', array( 'jquery' ), false, true );
+		wp_register_script( 'waypoints-sticky', SCRIPTS .'/waypoints-sticky.min.js', array( 'jquery' ), false, true );
+		wp_register_script( 'jquery-isotope', SCRIPTS .'/isotope.pkgd.min.js', array( 'jquery' ), false, true );
+		wp_register_script( 'jquery-countTo', SCRIPTS .'/jquery.countTo.js', array( 'jquery' ), false, true );
+		wp_register_script( 'prism-js', SCRIPTS .'/prism.js', array( 'jquery' ), false, true );
+		wp_register_script( 'contact', SCRIPTS .'/contact.js', array( 'jquery' ), false, true );
 
 		// Load the custom scripts
 		wp_enqueue_script( 'bootstrap-js' );
 		wp_enqueue_script( 'wedesign-custom' );
-		wp_enqueue_script('jquery-masonry');
+		wp_enqueue_script('jquery-isotope');
 	
 		wp_enqueue_script('jquery-easing');
 		wp_enqueue_script('jquery-scrollto');

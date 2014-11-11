@@ -31,7 +31,7 @@ get_header();
 			<?php
                 $terms = get_terms("project-type");
                 $count = count($terms);
-                echo '<ul>';
+                echo '<ul id="filters" data-option-key="filter">';
                 echo '<li class="active scrollimation fade-right d1"><a href="#" data-filter="*">All</a></li>';
                 if ( $count > 0 ){
                         
@@ -46,43 +46,45 @@ get_header();
             ?>
 		</div><!--End portfolio filters -->
 		
-		<div id="projects-container" class="row">
-        <?php if (have_posts()) :  while (have_posts()) : the_post(); ?>
+		<div class="row">
+            <div id="container" class="clearfix isotope">
 
-            <?php
-                $terms = get_the_terms( $post->ID, 'project-type' );
-                                
-                if ( $terms && ! is_wp_error( $terms ) ) : 
-                    $links = array();
+            <?php if (have_posts()) :  while (have_posts()) : the_post(); ?>
 
-                foreach ( $terms as $term ) 
-                    {
-                        $links[] = $term->name;
-                    }
-                        $links = str_replace(' ', '-', $links); 
-                        $tax = join( " ", $links );     
-                else :  
-                        $tax = '';  
-                endif;
-            ?>
+                <?php
+                    $terms = get_the_terms( $post->ID, 'project-type' );
+                                    
+                    if ( $terms && ! is_wp_error( $terms ) ) : 
+                        $links = array();
 
-            <div class="project-item col-md-4 col-sm-6 margin-btm-40  <?php echo strtolower($tax); ?>">
-                <div class="portfolio-sec">
-                    <div class="portfolio-thumnail">
-                        <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('wedesign-potifolio_thumb'); ?></a>
-                    </div>
-                    <div class="portfolio-desc text-center">
-                        <h4 class="portfolio-post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
-                        <span class="portfolio-post-cat"><?php echo get_the_term_list($post->ID, 'project-type', '', ', ',''); ?></span>
-                        <h4><a href="<?php the_permalink(); ?>" class="btn btn-default"><?php _e( 'More detail', 'wedesign' ); ?></a></h4>
+                    foreach ( $terms as $term ) 
+                        {
+                            $links[] = $term->name;
+                        }
+                            $links = str_replace(' ', '-', $links); 
+                            $tax = join( " ", $links );     
+                    else :  
+                            $tax = '';  
+                    endif;
+                ?>
+
+                <div class="project-item col-md-4 col-sm-6 margin-btm-40  <?php echo strtolower($tax); ?>">
+                    <div class="portfolio-sec">
+                        <div class="portfolio-thumnail">
+                            <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('wedesign-potifolio_thumb'); ?></a>
+                        </div>
+                        <div class="portfolio-desc text-center">
+                            <h4 class="portfolio-post-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                            <span class="portfolio-post-cat"><?php echo get_the_term_list($post->ID, 'project-type', '', ', ',''); ?></span>
+                            <h4><a href="<?php the_permalink(); ?>" class="btn btn-default"><?php _e( 'More detail', 'wedesign' ); ?></a></h4>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-        <?php endwhile; else: ?>
-            <?php get_template_part( 'content', 'none' ); ?>
-        <?php endif; ?>
-            
+            <?php endwhile; else: ?>
+                <?php get_template_part( 'content', 'none' ); ?>
+            <?php endif; ?>
+            </div>
         </div><!--row-->
 
 
