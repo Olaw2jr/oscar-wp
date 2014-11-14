@@ -75,18 +75,8 @@ jQuery(document).ready(function() {
 	/*============================================
 	Filter Projects
 	==============================================*/
-	jQuery('#filter-works a').click(function(e){
-		e.preventDefault();
-		
-		jQuery('#filter-works li').removeClass('active');
-		jQuery(this).parent('li').addClass('active');
-
-		scrollSpyRefresh();
-		waypointsRefresh();
-		stellarRefresh();
-	});
-
-	jQuery(window).load(function(){
+	
+	jQuery(window).ready(function(){
 		// cache container
 		var $container = jQuery('#container');
 		// initialize isotope
@@ -97,10 +87,19 @@ jQuery(document).ready(function() {
 		});
 
 		// filter items when filter link is clicked
-		jQuery('#filters a').click(function(){
-		  var selector = jQuery(this).attr('data-filter');
-		  $container.isotope({ filter: selector });
-		  return false;
+		jQuery('#filter-works a').click(function(e){
+			e.preventDefault();
+			
+			jQuery('#filter-works li').removeClass('active');
+			jQuery(this).parent('li').addClass('active');
+
+			var selector = jQuery(this).attr('data-filter');
+			  $container.isotope({ filter: selector });
+			return false;
+
+			scrollSpyRefresh();
+			waypointsRefresh();
+			stellarRefresh();
 		});
 	});
 	
