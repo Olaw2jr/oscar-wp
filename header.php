@@ -57,20 +57,20 @@
 						
 						<div class="header-content">
 							
-							<img class="header-logo" src="'.get_stylesheet_directory_uri() .'/assets/images/logos.png" alt=""/>
+							<!--<img class="header-logo" src="'.get_stylesheet_directory_uri() .'/assets/images/logos.png" alt=""/>-->
 						
-							<!--<div class="flexslider header-slider">
+							<div class="flexslider header-slider">
 							
 								<ul class="slides">
 								
-									<li><h1 class="bordered-text">Welcome to <span class="primary">Quattro</span> Studio</h1></li>
-									<li><h1 class="bordered-text">I am <span class="primary">Young</span></h1></li>
-									<li><h1 class="bordered-text">I am <span class="primary">Passionate</span></h1></li>
-									<li><h1 class="bordered-text">I have <span class="primary">Fresh</span> Ideas</h1></li>
+									<li><h1 >Hello am Oscah</h1></li>
+									<li><h1 >A Developer from Tz</h1></li>
+									<li><h1 >I am Passionate</h1></li>
+									<li><h1 >I have Fresh Ideas</h1></li>
 									
 								</ul>
 								
-							</div>End home-slider -->
+							</div><!--End home-slider -->
 								
 							<a class="scroll-button scrollto" href="#services"><i class="fa fa-angle-down"></i></a>	
 								
