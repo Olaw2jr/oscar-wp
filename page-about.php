@@ -95,7 +95,7 @@ if ( ! empty( $user_query->results ) ) {
                         <li><a href="' . $user->twitter_profile . '"><i class="fa fa-twitter fa-fw"></i></a></li>
                         <li><a href="' . $user->facebook_profile . '"><i class="fa fa-facebook fa-fw"></i></a></li>
                         <li><a href="' . $user->linkedin_profile . '"><i class="fa fa-linkedin fa-fw"></i></a></li>
-                        <li><a href="' . $user->google_profile . '"><i class="fa fa-linkedin fa-fw"></i></a></li>
+                        <li><a href="' . $user->google_profile . '"><i class="fa fa-google-plus fa-fw"></i></a></li>
                     </ul>
                     
                 </div>
