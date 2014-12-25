@@ -60,7 +60,13 @@ get_header(); ?>
                 <h3>Project Details</h3>
                 <ul class="list-unstyled">
                     <li><i class="fa fa-calendar"></i>   <?php the_time('F d, Y'); ?></li>
-                    <li><i class="fa fa-tags"></i>   <?php echo get_the_term_list($post->ID, 'project-type', '', ', ',''); ?></li>
+                    <li><i class="fa fa-tags"></i>
+                        <?php
+                            $terms_as_text = get_the_term_list($post->ID, 'project-type', '', ', ','');
+                            echo strip_tags($terms_as_text);
+                        ?> 
+                    </li>
+
                     <?php if($client != "")  print "<li><i class='fa fa-user'></i>   $client</li>"; ?>
                 </ul>
 
