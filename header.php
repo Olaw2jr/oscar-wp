@@ -56,18 +56,13 @@
 					<header id="home" class="parallax-bg" data-parallax-background="'. get_stylesheet_directory_uri() .'/assets/images/header-bg.jpg" data-stellar-background-ratio=".3">
 						
 						<div class="header-content">
-							
-							<!--<img class="header-logo" src="'.get_stylesheet_directory_uri() .'/assets/images/logos.png" alt=""/>-->
 						
 							<div class="flexslider header-slider">
 							
-								<ul class="slides">
+								<ul class="slides">	
+									<li><h2>WeDesign Loves crafting new concepts and experiences,<br> 
+											reaching people through design & web development.</h2></li>
 								
-									<li><h1 >Hello am Oscah</h1></li>
-									<li><h1 >A Developer from Tz</h1></li>
-									<li><h1 >I am Passionate</h1></li>
-									<li><h1 >I have Fresh Ideas</h1></li>
-									
 								</ul>
 								
 							</div><!--End home-slider -->

@@ -97,11 +97,13 @@ CALL TO ACTION
 	<div class="container">
 	
 		<div class="row scrollimation fade-right">
-			<div class="col-md-9 cta-message">
-				<p><strong>QUATTRO Bootstrap Template</strong> is the perfect sollution for your team's online portfolio. Don't waste time!</p>
+			<div class="col-md-8 cta-message">
+				<p>Sign up here to receive the latest news and updates from the <?php bloginfo( 'name' ); ?> conveniently via e-mail.</p>
 			</div>
-			<div class="col-md-3 cta-button">
-				<p class="text-center"><a class="btn btn-quattro transparent" href="https://wrapbootstrap.com/theme/quattro-elegant-one-page-template-WB0100H81" target="_blank"><i class="fa fa-shopping-cart"></i>Purchase Now</a></p>
+			<div class="col-md-4 cta-button">
+				<div class="controls">
+					<input id="email" name="email" placeholder="Enter Your Email" class="form-control" type="text" >
+				</div>
 			</div>
 		</div><!--End row-->
 		
