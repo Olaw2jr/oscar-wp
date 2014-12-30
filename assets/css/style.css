@@ -1978,10 +1978,22 @@ blockquote footer:after {
 }
 .meta li.categories:before,
 .meta li a:before {
-    content: "";
+    /*content: "";*/
     font-family: "fontawesome";
     margin-right: 6px;
 }
+
+
+
+.meta-categories a:before {
+    content: "\f114";
+}
+.meta-edit a:before {
+    content: "\f044";
+}
+
+
+
 .meta li.categories a:before,
 .meta li.categories:before {
     margin-right: 0;

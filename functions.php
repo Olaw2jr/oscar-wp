@@ -114,7 +114,7 @@ if ( ! function_exists( 'wedesign_post_meta' ) ) {
 			// Comments link.
 			if ( comments_open() ) :
 				echo '<li class="comments">';
-				comments_popup_link( __( 'Leave a comment', 'wedesign' ), __( 'One comment so far', 'wedesign' ), __( 'View all % comments', 'wedesign' ) );
+				comments_popup_link( __( 'Leave a comment', 'wedesign' ), __( 'One comment', 'wedesign' ), __( '% comments', 'wedesign' ) );
 				echo '</li>';
 			endif;
 

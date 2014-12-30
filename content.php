@@ -24,7 +24,7 @@
 		// If the post has a thumbnail and it's not password protected
 		// then display the thumbnail
 		if ( has_post_thumbnail() && ! post_password_required() ) : ?>
-		    <figure class="icon-overlay icn-link post-media">
+		    <figure class="post-media">
 		        <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
 		    </figure><!-- /.post-media -->
 		<?php endif; ?>
