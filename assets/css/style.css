@@ -624,7 +624,7 @@ border: 1px solid #ddd;
 ------------------------*/
 
 #home {
-    color:#fff;
+    color:#455A64;
     padding:0;
     margin-bottom:0;
 }
@@ -654,7 +654,7 @@ border: 1px solid #ddd;
     bottom:30px;
     left:50%;
     margin-left:-35px;
-    color:#fff !important;
+    color:#455A64 !important;
     padding:20px;
     font-size:48px;
     -webkit-animation: moving 2s ease-out infinite;
