@@ -179,7 +179,7 @@ a,
 a:hover,
 a:focus {
     outline:none !important;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 a {
@@ -189,8 +189,8 @@ a {
 
 a:hover,
 a:focus {
-    color:#03A9F4;
-    text-decoration: underline;
+    color:#607D8B;
+    text-decoration: none;
 }
 
 a:focus,
