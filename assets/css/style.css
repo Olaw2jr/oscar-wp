@@ -809,8 +809,8 @@ h3.heading-progress {
     text-align:center;
     line-height:150px;
     font-size:48px;
-    color:#fff;
-    background: #03A9F4;
+    color:#03A9F4;
+    background: #fff;
     border:1px solid #03A9F4;
     border-radius:50%;
     box-shadow:0 0 0 0 rgba(0,0,0,0.0);
@@ -820,8 +820,8 @@ h3.heading-progress {
 }
 
 .services .item:hover .icon {
-    color:#03A9F4;
-    background: #fff;
+    color:#fff;
+    background: #03A9F4;
     border:1px solid #ddd;
 }
 
