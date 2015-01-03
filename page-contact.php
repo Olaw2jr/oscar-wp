@@ -76,15 +76,9 @@
 				<div class="row">
 
 					<h1 class="section-title"><?php the_title(); ?></h1>
-					
-					<div class="col-sm-6 col-md-5 text-right scrollimation fade-up d1">
-						<?php if(have_posts()): while(have_posts()): the_post(); ?>
-							<?php the_content(); ?>
-						<?php endwhile; endif; ?>
+					<p class="section-description">I am available for freelance. Can’t wait for the next exciting project! Could be yours?</p>
 
-					</div>
-
-					<div class="col-sm-6 col-md-offset-1 scrollimation fade-left d3">
+					<div class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1 col-xs-offset-0 scrollimation fade-left d3">
 						<?php if ( isset( $emailIsSent ) && $emailIsSent ) : ?>
 							<div class="alert alert-success">
 								<?php _e( 'Your message has been sucessfully sent, thank you!', 'wedesign' ); ?>
