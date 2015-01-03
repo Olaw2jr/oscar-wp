@@ -22,9 +22,9 @@ ABOUT
 
 	<div class="container">
 	
-		<header class="section-header text-center">
+		<header class="section-heading text-center">
 		
-			<h1 class="scrollimation scale-in">About Me</h1>
+			<h1 class="scrollimation scale-in section-title">About Me</h1>
 		
 		</header>
 		
@@ -39,10 +39,9 @@ ABOUT
 			</div>
 			
 		</div>
-			
 		
 		
-		<p class="text-center"><a class="btn btn-default btn-lg" href="#contact"><i class="fa fa-arrow-down"></i>Hire Me</a></p>
+		<p class="text-center padding-top-bottom"><a class="btn btn-default btn-lg" href="#contact"><i class="fa fa-arrow-down"></i>Hire Me</a></p>
 		
 	</div>
 
