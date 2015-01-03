@@ -14,6 +14,7 @@ define( 'THEMEROOT', get_stylesheet_directory_uri() );
 define( 'IMAGES', THEMEROOT . '/images' );
 define( 'SCRIPTS', THEMEROOT . '/assets/js' );
 define( 'FRAMEWORK', get_template_directory() . '/framework' );
+define( 'SOIL_PATH', get_template_directory() . '/soil' );
 
 
 /**
@@ -22,6 +23,13 @@ define( 'FRAMEWORK', get_template_directory() . '/framework' );
  * ----------------------------------------------------------------------------------------
  */
 require_once( FRAMEWORK . '/init.php' );
+
+/**
+ * ----------------------------------------------------------------------------------------
+ * 2.1 - Load the framework.
+ * ----------------------------------------------------------------------------------------
+ */
+require_once(SOIL_PATH . '/soil.php');
 
 
 /**
@@ -66,20 +74,6 @@ if ( ! function_exists( 'wedesign_setup' ) ) {
 		 */
 		add_theme_support( 'automatic-feed-links' );
 
-		/**
-		* Enable Soil's root relative URLs with.
-		*/
-		add_theme_support('soil-relative-urls');
-
-		/**
-		* Enable Soil's clean-up with.
-		*/
-		add_theme_support('soil-clean-up');
-
-		/**
-		* Enable Soil's nice search (/search/query/) with.
-		*/
-		add_theme_support('soil-nice-search');
 
 		/**
 		 * Add support for post thumbnails.
