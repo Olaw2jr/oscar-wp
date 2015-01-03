@@ -67,6 +67,21 @@ if ( ! function_exists( 'wedesign_setup' ) ) {
 		add_theme_support( 'automatic-feed-links' );
 
 		/**
+		* Enable Soil's root relative URLs with.
+		*/
+		add_theme_support('soil-relative-urls');
+
+		/**
+		* Enable Soil's clean-up with.
+		*/
+		add_theme_support('soil-clean-up');
+
+		/**
+		* Enable Soil's nice search (/search/query/) with.
+		*/
+		add_theme_support('soil-nice-search');
+
+		/**
 		 * Add support for post thumbnails.
 		 */
 		add_theme_support( 'post-thumbnails' );
