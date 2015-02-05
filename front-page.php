@@ -20,39 +20,31 @@ SERVICES
 
 	<div class="container">
 		
-		<h1 class="section-title">Our Services</h1>
-		<p class="section-description">We create awesome Websites and Mobile Apps, the perfect solution for your project.<br/> We don't make designs, we make magic!</p>
+		<h1 class="section-title">How I Get There</h1>
+		<p class="section-description">I create awesome Websites and Mobile Apps, the perfect solution for your project.<br/> I don't make designs, I make magic!</p>
 		
 		<div class="row services">
 		
-			<div class="col-md-3 col-sm-6 item text-center scrollimation fade-right d1">
+			<div class="col-md-4 col-sm-6 item text-center scrollimation fade-right d1">
 		
 				<div class="icon"><i class="fa fa-mobile"></i></div>
-				<h3>Mobile first approach</h3>
-				<p>Phasellus ac mi quam. Suspendisse eu erat venenatis, euismod tellus sollicitudin, egestas lacus.</p>
+				<h3>Passion</h3>
+				<p>High-quality solution for those who want a beautiful website in no time. Full responsive and will adapt itself to any mobile device. iPad, iPhone, Android, it doesn't matter. Your content will always looks its absolute best..</p>
 				
 			</div>
 			
-			<div class="col-md-3 col-sm-6 item text-center scrollimation fade-right">
+			<div class="col-md-4 col-sm-6 item text-center scrollimation fade-right">
 		
 				<div class="icon"><i class="fa fa-pencil"></i></div>
-				<h3>Easily customizable</h3>
+				<h3>Creativity</h3>
 				<p>Phasellus ac mi quam. Suspendisse eu erat venenatis, euismod tellus sollicitudin, egestas lacus.</p>
 				
 			</div>
 			
-			<div class="col-md-3 col-sm-6 item text-center scrollimation fade-left">
-		
-				<div class="icon"><i class="fa fa-rocket"></i></div>
-				<h3>Premium plugins included</h3>
-				<p>Phasellus ac mi quam. Suspendisse eu erat venenatis, euismod tellus sollicitudin, egestas lacus.</p>
-				
-			</div>
-			
-			<div class="col-md-3 col-sm-6 item text-center scrollimation fade-left d1">
+			<div class="col-md-4 col-sm-6 item text-center scrollimation fade-left d1">
 		
 				<div class="icon"><i class="fa fa-code"></i></div>
-				<h3>Crossbrowser compatibility</h3>
+				<h3>Quality</h3>
 				<p>Phasellus ac mi quam. Suspendisse eu erat venenatis, euismod tellus sollicitudin, egestas lacus.</p>
 				
 			</div>

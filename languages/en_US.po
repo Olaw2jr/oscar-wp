@@ -1,0 +1,217 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WeDesign WordPress Theme\n"
+"POT-Creation-Date: 2015-01-03 15:20+0300\n"
+"PO-Revision-Date: 2015-01-03 15:21+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:19
+msgid "You found a dead link!"
+msgstr ""
+
+#: 404.php:28
+msgid "404 Error"
+msgstr ""
+
+#: 404.php:32
+msgid "Go back"
+msgstr ""
+
+#: comments.php:26
+msgid "No comments"
+msgstr ""
+
+#: comments.php:26 functions.php:126
+msgid "One comment"
+msgstr ""
+
+#: comments.php:26 functions.php:126
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: comments.php:51
+msgid "Comments are closed"
+msgstr ""
+
+#: comments.php:60
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:60
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: content-none.php:8
+msgid "Nothing found!"
+msgstr ""
+
+#: framework/widgets/widget-business-hours.php:21
+msgid "Alpha: Business Hours"
+msgstr ""
+
+#: framework/widgets/widget-business-hours.php:24
+msgid "A custom widget that displays business hours."
+msgstr ""
+
+#: framework/widgets/widget-business-hours.php:48
+msgid "Title:"
+msgstr ""
+
+#: framework/widgets/widget-business-hours.php:54
+msgid "Description:"
+msgstr ""
+
+#: framework/widgets/widget-business-hours.php:60
+msgid "Monday-Friday:"
+msgstr ""
+
+#: framework/widgets/widget-business-hours.php:66
+msgid "Saturday:"
+msgstr ""
+
+#: framework/widgets/widget-business-hours.php:72
+msgid "Sunday:"
+msgstr ""
+
+#: framework/widgets/widget-business-hours.php:123
+msgid "Monday-Friday: "
+msgstr ""
+
+#: framework/widgets/widget-business-hours.php:130
+msgid "Saturday: "
+msgstr ""
+
+#: framework/widgets/widget-business-hours.php:137
+msgid "Sunday: "
+msgstr ""
+
+#: front-page.php:93 page-portfolio.php:79
+msgid "More detail"
+msgstr ""
+
+#: functions.php:93
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:114
+msgid "Sticky"
+msgstr ""
+
+#: functions.php:126
+msgid "Leave a comment"
+msgstr ""
+
+#: functions.php:137 functions.php:365
+msgid "Edit"
+msgstr ""
+
+#: functions.php:221
+msgid "Main Widget Area"
+msgstr ""
+
+#: functions.php:223
+msgid "Appears on posts and pages."
+msgstr ""
+
+#: functions.php:233
+msgid "Footer Widget Area"
+msgstr ""
+
+#: functions.php:235
+msgid "Appears on the footer."
+msgstr ""
+
+#: functions.php:357
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:443
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: header.php:51
+msgid "Inapakua..."
+msgstr ""
+
+#: page-contact.php:21
+msgid "Please enter your name."
+msgstr ""
+
+#: page-contact.php:22
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: page-contact.php:23
+msgid "Please enter the message."
+msgstr ""
+
+#: page-contact.php:54
+#, php-format
+msgid "You have been contacted by %s"
+msgstr ""
+
+#: page-contact.php:55
+#, php-format
+msgid "You have been contacted by %1$s. Their message is:"
+msgstr ""
+
+#: page-contact.php:57
+#, php-format
+msgid "You can contact %1$s via email at %2$s"
+msgstr ""
+
+#: page-contact.php:84
+msgid "Your message has been sucessfully sent, thank you!"
+msgstr ""
+
+#: page-contact.php:92
+msgid "Sorry, it seems there was an error."
+msgstr ""
+
+#: page-contact.php:102
+msgid "Name"
+msgstr ""
+
+#: page-contact.php:112
+msgid "Email Address"
+msgstr ""
+
+#: page-contact.php:122
+msgid "Message"
+msgstr ""
+
+#: page-contact.php:132
+msgid "Send Message"
+msgstr ""
+
+#: portfolio-type.php:7
+msgid "Portfolio"
+msgstr ""
+
+#: portfolio-type.php:8
+msgid "Project"
+msgstr ""
+
+#: portfolio-type.php:107 portfolio-type.php:108
+msgid "Testimonial"
+msgstr ""
+
+#: single-portfolio.php:80
+msgid "No posts were found. Sorry!"
+msgstr ""

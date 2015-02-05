@@ -364,8 +364,8 @@ function wedesign_comments($comment, $args, $depth) {
                         <li class="reply"><?php comment_reply_link(array_merge( $args, array('depth' => $depth, 'max_depth' => $args['max_depth']))) ?></li>
                         <?php edit_comment_link(__('Edit','wedesign'),'<i class="fa fa-pencil-square-o"></i>') ?>
                         <li class="votes">24</li>
-                        <li class="upvote"><a href="#"><i class="icon-thumbs-up"></i></a></li>
-                        <li class="downvote"><a href="#"><i class="icon-thumbs-down"></i></a></li>
+                        <li class="upvote"><a href="#"><i class="fa fa-thumbs-o-up"></i></a></li>
+                        <li class="downvote"><a href="#"><i class="fa fa-thumbs-o-down"></i></a></li>
                     </ul><!-- /.meta -->
                 </div><!-- /.message -->
                 
@@ -378,7 +378,7 @@ function wedesign_comments($comment, $args, $depth) {
 function list_pings($comment, $args, $depth) {
        $GLOBALS['comment'] = $comment;
 ?>
-        <li id="comment-<?php comment_ID(); ?>"><i class="icon icon-share-alt"></i>&nbsp;<?php comment_author_link(); ?>
+        <li id="comment-<?php comment_ID(); ?>"><i class="fa fa-share-alt"></i>&nbsp;<?php comment_author_link(); ?>
 <?php 
 }
 

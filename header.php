@@ -60,8 +60,8 @@
 							<div class="flexslider header-slider">
 							
 								<ul class="slides">	
-									<li><h2>WeDesign Loves crafting new concepts and experiences,<br> 
-											reaching people through design & web development.</h2></li>
+									<li><h2>Oscar Loves crafting new concepts and experiences,<br> 
+											reaching people through design & coding.</h2></li>
 								
 								</ul>
 								

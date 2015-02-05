@@ -80,7 +80,7 @@
 
 					<div class="col-md-8 col-sm-10 col-xs-12 col-md-offset-2 col-sm-offset-1 col-xs-offset-0 scrollimation fade-left d3">
 						<?php if ( isset( $emailIsSent ) && $emailIsSent ) : ?>
-							<div class="alert alert-success">
+							<div class="alert alert-success" role="alert">
 								<?php _e( 'Your message has been sucessfully sent, thank you!', 'wedesign' ); ?>
 							</div> <!-- end alert -->
 						<?php else : ?>
@@ -88,7 +88,7 @@
 						<?php the_content(); ?>
 
 						<?php if ( isset( $isError ) && $isError ) : ?>
-							<div class="alert-alert-danger">
+							<div class="alert alert-danger" role="alert">
 								<?php _e( 'Sorry, it seems there was an error.', 'wedesign' ); ?>
 							</div> <!-- end alert -->
 						<?php endif; ?>

@@ -1439,7 +1439,7 @@ overflow: hidden;
     background:transparent;
     border-radius:5px;
     border-color: #777;
-    color:#fff;
+    color:#607D8B;
     outline:none;
     height:52px;
     font-weight:300;
@@ -1992,7 +1992,7 @@ blockquote footer:after {
     padding-right: 80px;
     margin-bottom: 25px;
 }
-.meta li {
+ul.meta li {
     display: inline-block;
     margin: 0 6px;
 }
